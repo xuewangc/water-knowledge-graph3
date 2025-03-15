@@ -1,0 +1,207 @@
+/* src/components/Graph/Graph.css */
+
+.graph-container {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.knowledge-graph {
+    background-color: #f8f9fa;
+    touch-action: none; /* 防止触摸设备上的默认行为 */
+}
+
+/* ========= 边的样式 - 极大增强可见性 ========= */
+.graph-edge line {
+    stroke: #888 !important; /* 强制更深的灰色 */
+    stroke-width: 1.5px !important; /* 强制更粗的线 */
+    stroke-opacity: 0.8 !important; /* 强制更高的不透明度 */
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+.graph-edge.highlighted line {
+    stroke: #555 !important; /* 高亮时更暗 */
+    stroke-width: 2.5px !important; /* 高亮时更粗 */
+    stroke-opacity: 1 !important; /* 完全不透明 */
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+}
+
+/* 确保边在正确的图层上 */
+.edges-layer {
+    z-index: 5 !important; /* 确保在背景上，在节点下 */
+}
+
+.nodes-layer {
+    z-index: 10 !important; /* 确保在边上 */
+}
+
+/* ========= 节点样式 ========= */
+.graph-node {
+    cursor: grab;
+    will-change: transform;
+}
+
+/* 节点圆形 */
+.node-circle {
+    fill-opacity: 1;
+    stroke: white;
+    stroke-width: 1.5px;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+}
+
+/* 节点文本 - 极大增强可读性 */
+.node-label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    pointer-events: none;
+    /* 文字描边使其在各种背景上都清晰可见 */
+    paint-order: stroke !important;
+    stroke: rgba(0, 0, 0, 0.8) !important;
+    stroke-width: 3px !important;
+    stroke-linecap: round !important;
+    stroke-linejoin: round !important;
+    /* 文字阴影 */
+    text-shadow:
+            0px 0px 2px rgba(0, 0, 0, 0.9),
+            0px 0px 4px rgba(0, 0, 0, 0.5) !important;
+    /* 禁用文本选择 */
+    user-select: none;
+}
+
+.graph-node .node-label {
+    /* 所有节点统一使用白色文字+黑色描边 */
+    fill: white !important;
+    stroke: rgba(0, 0, 0, 0.9) !important;
+    stroke-width: 3px !important;
+    text-shadow: 0px 0px 3px black, 0px 0px 1px black !important;
+}
+
+/* 高亮状态 */
+.graph-node.selected .node-circle {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.4)) brightness(1.1);
+    stroke-width: 2px;
+}
+
+.graph-node.selected .node-label {
+    font-size: 14px !important;
+    stroke-width: 3.5px !important;
+}
+
+.graph-node.hovered .node-circle {
+    filter: brightness(1.1) drop-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+}
+
+.graph-node.hovered .node-label {
+    stroke-width: 3.5px !important;
+}
+
+.graph-node.dragging {
+    cursor: grabbing !important;
+    z-index: 100;
+}
+
+.graph-node.dragging .node-circle {
+    filter: brightness(1.2) drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
+}
+
+.graph-node.dragging .node-label {
+    stroke-width: 4px !important;
+}
+
+/* ========= 边标签 ========= */
+.edge-label rect {
+    fill: white;
+    stroke: #ccc;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+}
+
+.edge-label text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+/* ========= 提示框 ========= */
+.node-tooltip {
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.node-tooltip > div {
+    background: white;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #eee;
+    font-size: 12px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.node-tooltip h4 {
+    margin: 0 0 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    font-size: 14px;
+}
+
+.node-tooltip p {
+    margin: 5px 0;
+    line-height: 1.4;
+    color: #555;
+}
+
+/* ========= 详情面板 ========= */
+.node-details-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.node-details-panel h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.node-details-panel p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+/* ========= 图例 ========= */
+.graph-legend text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* ========= 图层 ========= */
+.background-layer {
+    z-index: 1;
+}
+
+.edges-layer {
+    z-index: 2;
+}
+
+.nodes-layer {
+    z-index: 3;
+}
+
+.ui-layer {
+    z-index: 4;
+}

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "tech1",
+    "type": "construction",
+    "label": "石板底水池",
+    "related": ["水池建造", "供水系统"],
+    "innovation": "池底用石板铺设，侧壁用卵石堆积",
+    "period": "商朝",
+    "improvement": "提高储水池坚固性和防渗性",
+    "details": "在郑州商城遗址发现的水池，采用石板铺底和卵石侧壁的技术，用于宫殿供水"
+  },
+  {
+    "id": "stone-pipe-supply",
+    "type": "supply",
+    "label": "地下水管系统",
+    "related": ["供水", "城市基础设施"],
+    "innovation": "石板建筑的地下水管",
+    "period": "商朝",
+    "improvement": "实现宫殿区域的供水输送",
+    "details": "在郑州商城宫殿区北部发现的用石板建筑的地下水管和供水设施"
+  },
+  {
+    "id": "trapezoidal-drainage-gully",
+    "type": "drainage",
+    "label": "倒梯形水沟",
+    "related": ["排水", "城市建设"],
+    "innovation": "带桩柱的倒梯形水沟结构",
+    "period": "商朝晚期",
+    "improvement": "增强水沟稳定性，提高排水效率",
+    "details": "殷墟出土的水沟呈倒梯形，有桩柱支撑，是早期排水工程的技术代表"
+  },
+  {
+    "id": " water-gate-regulation",
+    "type": "water_control",
+    "label": "水门调节装置",
+    "related": ["水流控制", "水量调节"],
+    "innovation": "水门调节技术",
+    "period": "商朝晚期",
+    "improvement": "实现对水流的人工控制",
+    "details": "殷墟水沟中发现的水门调节装置遗迹，能够控制水量"
+  },
+  {
+    "id": "moat-defense-system",
+    "type": "defense",
+    "label": "城濠防御系统",
+    "related": ["城市防御", "水利工程"],
+    "innovation": "大型城市环绕水沟",
+    "period": "商周时期",
+    "improvement": "加强城市防御能力",
+    "details": "从商代到周代，城市周围普遍修建宽深不等的城濠作为防御设施"
+  },
+  {
+    "id": "engineering-surveying-tech",
+    "type": "measurement",
+    "label": "水利工程测量技术",
+    "related": ["工程规划", "建造技术"],
+    "innovation": "工程规划与测量方法",
+    "period": "春秋时期",
+    "improvement": "提高工程精确度和效率",
+    "details": "《左传》记载春秋时期已有量功命日、分财用、程土物、议远迩等工程规划测量技术"
+  },
+  {
+    "id": "canal-irrigation-system",
+    "type": "irrigation",
+    "label": "渠道灌溉技术",
+    "related": ["农业灌溉", "水资源利用"],
+    "innovation": "大规模引水渠系统",
+    "period": "战国时期",
+    "improvement": "扩大灌溉范围，提高农业产量",
+    "details": "战国时期开始出现如漳水渠等县级水利灌溉系统，为农业生产提供水源"
+  },
+  {
+    "id": "hill-pond-storage",
+    "type": "water_storage",
+    "label": "陂塘蓄水技术",
+    "related": ["水资源储存", "灌溉"],
+    "innovation": "丘陵地带的蓄水设施",
+    "period": "春秋-战国",
+    "improvement": "在南方地区发展出适合地形的水资源管理方式",
+    "details": "在江淮、江南地区发展出的陂塘技术，初期主要用于防洪和军事防御，后逐渐用于灌溉"
+  },
+  {
+    "id": "river-diversion-tech",
+    "type": "diversion",
+    "label": "分流技术",
+    "related": ["防洪", "灌溉"],
+    "innovation": "河流分流引水",
+    "period": "战国末-秦",
+    "improvement": "实现防洪与灌溉的双重功能",
+    "details": "由李冰在都江堰应用的分流技术，通过鱼嘴、飞沙堰等设施将岷江分流，既防洪又灌溉"
+  },
+  {
+    "id": "canal-transportation-tech",
+    "type": "transport",
+    "label": "水运运河技术",
+    "related": ["交通", "物资运输"],
+    "innovation": "连接不同水系的运河",
+    "period": "春秋-秦汉",
+    "improvement": "实现跨流域水上交通",
+    "details": "从春秋时期的江淮运河到秦代的灵渠，发展出连接不同水系的运河技术，促进物资流通"
+  },
+  {
+    "id": "iron-dam-construction-tools",
+    "type": "tools",
+    "label": "铁制水利工具",
+    "related": ["工程建设", "农田水利"],
+    "innovation": "铁制工具用于水利建设",
+    "period": "春秋末-战国",
+    "improvement": "提高工程效率和质量",
+    "details": "从春秋末期开始铁制工具的出现，包括用于挖掘水沟、开垦荒地的臿等，大大提高了水利工程的建设效率"
+  },
+  {
+    "id": "water-administration-system",
+    "type": "management",
+    "label": "水利行政管理体系",
+    "related": ["政府管理", "水利维护"],
+    "innovation": "专职水利官员和管理制度",
+    "period": "战国-汉",
+    "improvement": "加强对水利设施的管理和维护",
+    "details": "从战国时期的司空到汉代的都水官，逐渐发展出一套水利行政管理制度"
+  },
+  
+  {
+    "id": "canal-embankment-technology",
+    "type": "technology",
+    "label": "通济渠夯土驳岸",
+    "related": "通济渠",
+    "innovation": "采用夯土筑建河岸",
+    "period": "Sui",
+    "improvement": "使河岸更加坚固",
+    "details": "通济渠郑州段、商丘南关段是通济渠沿线重要的河道与水工遗存，展现了唐宋时期通济渠夯土驳岸的形制与工艺"
+  },
+  {
+    "id": "canal-longevity",
+    "type": "technology",
+    "label": "永济渠卫河沿用",
+    "related": "永济渠",
+    "innovation": "沿用至明清时期",
+    "period": "Sui",
+    "improvement": "保持了河道的长期使用",
+    "details": "永济渠浚县段，又称卫河，自隋一直沿用至明清时期"
+  },
+  {
+    "id": "grand-canal-connection",
+    "type": "水利工程",
+    "label": "大运河",
+    "related": "水运发展",
+    "innovation": "连通南北水系",
+    "period": "隋朝",
+    "improvement": "促进了经济文化交流",
+    "details": "大运河是隋朝时期修建的，连接了黄河与长江，极大地改善了交通运输和物资调配。"
+  },
+  {
+    "id": "irrigation-technique",
+    "type": "灌溉技术",
+    "label": "槽灌与引水",
+    "related": "农业生产",
+    "innovation": "提高作物产量",
+    "period": "唐朝",
+    "improvement": "促进了农业发展",
+    "details": "通过修建水渠和灌溉槽，有效引水灌溉田地，提高了农作物的产量，保障了粮食安全。"
+  },
+  
+  {
+    "id": "gang-transport-system",
+    "type": "运输制度",
+    "label": "纲运制度",
+    "related": "运河漕运",
+    "innovation": "编队运输",
+    "period": "北宋",
+    "improvement": "提高运输效率",
+    "details": "十船为纲，每纲三百人，篙工五十"
+  },
+  {
+    "id": "transfer-transport-method",
+    "type": "漕运方法",
+    "label": "转般法",
+    "related": "运河运输",
+    "innovation": "分段运输",
+    "period": "北宋",
+    "improvement": "减少损耗",
+    "details": "江南漕粮集于转般仓，换船入京"
+  },
+  {
+    "id": "lo-to-bian-river-diversion",
+    "type": "河道治理",
+    "label": "引洛入汴",
+    "related": "汴河维护",
+    "innovation": "引入清水",
+    "period": "元丰年间",
+    "improvement": "减少泥沙淤积",
+    "details": "导洛水入汴，设水柜调节水量"
+  },
+  {
+    "id": "wooden-bank-narrow-river",
+    "type": "technology",
+    "label": "木岸狭河",
+    "related": "汴河治理",
+    "innovation": "通过收窄河道提高水流速度",
+    "period": "Song",
+    "improvement": "有效减少了河道淤塞",
+    "details": "在汴河中游的商丘济阳镇段、淮北柳孜段和宿州埇桥段等运河遗址均有发现，以柳孜运河遗址保存状态较好，规模也较为庞大"
+  },
+  {
+    "id": "luo-to-bian-river-connection",
+    "type": "technology",
+    "label": "导洛通汴",
+    "related": "汴河治理",
+    "innovation": "改变水源为洛河",
+    "period": "Song",
+    "improvement": "减少了黄河泥沙对汴河的影响",
+    "details": "自任村沙谷口至汴口开河五十里，引伊、洛水入汴河，每二十里置束水一，以刍楗为之，以节湍急之势，取水深一丈，以通漕运"
+  },
+  {
+    "id": "irrigation-water-diversion",
+    "type": "水利工程",
+    "label": "引水入田",
+    "related": "农业灌溉",
+    "innovation": "改进灌溉系统",
+    "period": "宋朝",
+    "improvement": "提升农业效率",
+    "details": "宋代引水入田的技术发展使灌溉系统更加完善，农业产量显著提高，粮食供应稳定。"
+  },
+  {
+    "id": "embankment-and-reservoir-construction",
+    "type": "水利设施",
+    "label": "堤坝和水库",
+    "related": "防洪工程",
+    "innovation": "防洪抗旱",
+    "period": "宋朝",
+    "improvement": "减少水灾影响",
+    "details": "修筑堤坝、兴建水库的技术使得去年洪水的损害大大减轻，保证了人民的生活和农业生产。"
+  },
+  {
+    "id": "seawall-construction-technology",
+    "type": "seawall-technology",
+    "label": "海塘技术",
+    "related": ["南塘工程", "赵公塘"],
+    "innovation": "无",
+    "period": "南宋",
+    "improvement": "无",
+    "details": "南塘和赵公塘工程采用了传统的石塘技术，通过加固和延长海塘来抵御海潮。"
+  },
+
+{
+    "id": "sluice-gate-tech",
+    "type": "hydraulic-structure",
+    "label": "闸门技术",
+    "related": ["wusong-river-dade", "wusong-river-taiding"],
+    "innovation": "在太湖水系关键位置设置闸门，控制水流",
+    "period": "元朝",
+    "improvement": "调节水量，防止潮水倒灌",
+    "details": "在吴淞江等河道设置闸门，依时启闭，抑制潮水，控制水流"
+  },
+  {
+    "id": "dyke-construction",
+    "type": "land-protection",
+    "label": "围田技术",
+    "related": ["wusong-river-dade", "wusong-river-taiding"],
+    "innovation": "筑土作围以绕田，防止水淹",
+    "period": "元朝",
+    "improvement": "高筑围岸，防止水淹农田",
+    "details": "浙西地区多为围田，通过修筑田围防止洪水淹没农田，保障农业生产"
+  },
+  {
+    "id": "water-wheel",
+    "type": "irrigation-tool",
+    "label": "水车技术",
+    "related": [],
+    "innovation": "利用水力提水灌溉",
+    "period": "元朝",
+    "improvement": "提高农田灌溉效率",
+    "details": "元代的水车在农业灌溉中应用广泛，提高农业生产效率"
+  },
+  {
+    "id": "windmill-tech",
+    "type": "irrigation-tool",
+    "label": "风车技术",
+    "related": [],
+    "innovation": "利用风力提水灌溉",
+    "period": "元朝",
+    "improvement": "风车在水利活动中的使用，在中国历史上是第一次",
+    "details": "浙西地区使用风车提水灌溉，是中国水利史上的创新"
+  },
+  {
+    "id": "three-combined-approach",
+    "type": "water-management-strategy",
+    "label": "开江、置闸、修围三者兼行",
+    "related": ["wusong-river-dade", "wusong-river-taiding"],
+    "innovation": "任仁发综合治水方略",
+    "period": "元朝",
+    "improvement": "系统性治理水患的方法",
+    "details": "任仁发提出'开挑河道所以泄水；修筑围岸所以障水；置立牐窦所以限水'的治水思想，强调三者兼行"
+  },
+  {
+    "id": "spring-control-method",
+    "type": "construction-technique",
+    "label": "开河止泉眼涌出沙土法",
+    "related": [],
+    "innovation": "任仁发发明的控制泉眼的方法",
+    "period": "元朝",
+    "improvement": "解决河道疏浚中的技术难题",
+    "details": "用芦席于泉眼上覆盖数重，以重木压之，使水出而阻止沙土涌出"
+  },
+
+
+{
+    "id": "irrigation-tech-yuan",
+    "type": "irrigation-technology",
+    "label": "灌溉技术",
+    "related": ["huangyan-irrigation-yuan1289"],
+    "innovation": "无",
+    "period": "元朝",
+    "improvement": "无",
+    "details": "黄岩诸间的修建采用了陡口和水闸技术，用于蓄淡洗盐和灌溉农田。"
+},
+
+
+
+  {
+    "id": "salt_production_leaching_yuan",
+    "type": "salt production",
+    "label": "淋卤煎盐法",
+    "related": ["盐场", "卤井", "灶户"],
+    "innovation": "利用海水风干附着于沙土或草灰，再淋取卤水煎盐",
+    "period": "元朝以前至明初",
+    "improvement": "提高盐分浓度，节省燃料",
+    "details": "将海水引入滩地自然风干，结晶附着于沙土，或铺设草灰在沙土滩上，再将含有盐分的沙土、草灰挂扫收集制成高浓度卤水，过滤后加热制成食盐"
+  },
+  {
+    "id": "salt_production_sun_drying_songYuan",
+    "type": "salt production",
+    "label": "晒盐法",
+    "related": ["晒盐池", "晒板"],
+    "innovation": "完全依靠自然风干晒制，不需加热",
+    "period": "宋元时期开始，明清推广",
+    "improvement": "完全省去燃料，提高盐的纯净度",
+    "details": "将海水引入事先制作好的晒盐池或晒板进行自然风干和晾晒，在福建、广东地区元代时已经得到较多应用"
+  },
+  {
+    "id": "water_dam_gate_control_yuan",
+    "type": "water management",
+    "label": "坝堰蓄水技术",
+    "related": ["盐场", "海河道"],
+    "innovation": "灵活操作闸坝控制水位",
+    "period": "元朝",
+    "improvement": "适应潮汐变化，保障生产用水",
+    "details": "坝堰蓄水，办盐全赖海潮，扵港口筑捺堰，平时运盐需要闭闸蓄水，或开闸保持一定水位，海潮涌起时闭闸，风潮中严格看守"
+  },
+  {
+    "id": "inland_transport_system_yuan",
+    "type": "transportation",
+    "label": "内河航运体系",
+    "related": ["盐运", "漕运"],
+    "innovation": "封闭式内河运输体系",
+    "period": "元朝",
+    "improvement": "减少私盐流出",
+    "details": "元代对运销制度实施改革，构建封闭式内河运输体系，排斥海运，设置官运纲、官仓等管控环节，防止盐在运输过程中流入非法渠道"
+  },
+  {
+    "id": "polders-canal-integration",
+    "type": "system",
+    "label": "圩田水网与运河整合技术",
+    "related": ["new-canal-yuan", "west-embankment-ming", "east-embankment-ming"],
+    "innovation": "将泾浜化的圩田水网与干支结构的运河水网整合，形成梯级水系结构。",
+    "period": "元末明初",
+    "improvement": "从无序的湖漾水网发展为以运河为干、圩田河道为支的有序水网。",
+    "details": "随着元末新开运河形成与明代堤塘系统构建，下塘河区域形成以运河为干河、泾浜为支河的三级水网结构，运河是第一层级河道，沿运河的泾浜为第二层级河道，与泾浜相通的圩内田间小河则是第三层级河道。"
+  },
+  
+  {
+    "id": "tech_dike_construction",
+    "type": "construction",
+    "label": "堤防修筑技术",
+    "related": ["dike_yangtze_river", "dike_hanjiang_river", "dike_yuan_system"],
+    "innovation": "在堤防保护方面采用植树护堤等生态方法",
+    "period": "明代中期",
+    "improvement": "结合传统筑堤与生态保护手段",
+    "details": "如在枝江县的百里洲堤外筑拒浪小堤，植杨柳为卫，在堤上种草以减轻水流冲击，草能柔水性，能庇雨淋，而坦陂又可杀风浪之怒。"
+  },
+  {
+    "id": "tech_management_system",
+    "type": "administration",
+    "label": "堤甲法水利管理制度",
+    "related": ["dike_management_system"],
+    "innovation": "建立专门的堤防管理组织和职责分配",
+    "period": "嘉靖年间",
+    "improvement": "将管理责任明确到人，增强监管效力",
+    "details": "设立堤长、甲长制度，明确职责划分和堤段管理权责，建立行政问责机制，对堤防损毁有明确处罚规定。"
+  },
+  {
+    "id": "tech_water_diversion",
+    "type": "engineering",
+    "label": "分流治水技术",
+    "related": ["dike_yangtze_river", "dike_hanjiang_river"],
+    "innovation": "采用疏通故道分散洪水的方法",
+    "period": "明代",
+    "improvement": "减少主河道水量，降低洪灾风险",
+    "details": "如'疏二圣洲之故道以分江势'的技术方案，通过恢复历史河道分流洪水，减轻主河道压力。"
+},
+{
+    "id": "dyke-canal-integration",
+    "type": "system",
+    "label": "堤塘与运河整合技术",
+    "related": ["west-embankment-ming", "east-embankment-ming", "stone-embankment-ming"],
+    "innovation": "通过在运河两侧构筑堤塘，实现对水流的横截控制，同时整合运河沿线的纵横支河水系。",
+    "period": "明代中期",
+    "improvement": "从单一土堤发展到双堤系统，并将险工段的土堤改造为更加坚固的石堤。",
+    "details": "明代通过在下塘河两侧构筑堤塘，形成双堤系统，不仅保障了漕运安全，也整合了水网格局，对圩田水网起到关键性形塑作用。"
+  },
+  {
+    "id": "weir-sluice-technology",
+    "type": "hydraulic",
+    "label": "堰闸陡门系统",
+    "related": ["weir-sluice-system-ming"],
+    "innovation": "在运堤上设置堰闸陡门控制水流，实现对进出水量的精细调节。",
+    "period": "明代中后期",
+    "improvement": "从简单土堰发展为专人管理的闸门系统，增强了水流控制的灵活性。",
+    "details": "嘉靖时期形成较为完善的堰闸系统，包括堤上桥洞、堰闸陡门等，实现对水流的引流、排水、灌溉等多种功能调控，平衡漕运与圩田利益。"
+  },
+  {
+    "id": "wood_to_stone_transition",
+    "type": "construction_technique",
+    "label": "易木为石技术革新",
+    "related": ["han_yan_canal", "tang_lai_canal", "dark_tunnel_tech"],
+    "innovation": "渠道材料更新",
+    "period": "明代隆庆时期（1572年）",
+    "improvement": "将木质水利设施改为石质",
+    "details": "明隆庆六年（1572）时任宁夏卫佥事汪文辉'始奏驱石以易制式'，即渠道材料'易木为石'。'易木为石'后，较为成功地解决了渠道易损、维修频繁的问题。"
+  },
+  {
+    "id": "dark_tunnel_tech",
+    "type": "construction_technique",
+    "label": "暗洞技术",
+    "related": ["han_yan_canal", "karez_influence"],
+    "innovation": "渠底穿洞技术",
+    "period": "明代万历时期",
+    "improvement": "解决湖泊排水问题",
+    "details": "暗洞是一种穿过渠底、连通渠两侧湖泊的排水通道。据清代王全臣《重修暗洞记》描述，暗洞乃穿汉延渠底而出，'汉渠南北流于上，而穴其下若桥洞然。虽高止数尺，广止丈余，而渠与两岸之堤宽至十有余丈，洞之长亦如之。深藏地中，潜渡伏流，望之幽邃杳冥，故曰暗洞也。'以林皋暗洞为例，1997年翻建改造后的尺寸为2.5m×2.5m，洞身长68.5m，为一处大型暗洞。"
+  },
+  {
+    "id": "flying_trough_tech",
+    "type": "construction_technique",
+    "label": "飞槽技术",
+    "related": ["han_yan_canal", "tang_lai_canal"],
+    "innovation": "跨渠引水技术",
+    "period": "明代后期",
+    "improvement": "解决渠道交叉问题",
+    "details": "飞槽主要是为沟通各渠，跨渠引水。因'渠分布，东、西阻隔，往往有此渠之地而因势乘便，接引彼渠之水以接济者，则用木槽跨渠上通之，曰飞槽'。针对不同地势条件，飞槽也设定相应形制。"
+  },
+  {
+    "id": "bottom_stone_tech",
+    "type": "construction_technique",
+    "label": "底石技术",
+    "related": ["han_yan_canal", "tang_lai_canal"],
+    "innovation": "渠道底部铺设石材",
+    "period": "明代后期",
+    "improvement": "减少淤积，便于维护",
+    "details": "在渠道中铺设底石，可以更科学地测量泥沙淤积数据。冬季封渠断水后，至来年春季开渠，可减少渠道清淤工时。"
+  },
+  {
+    "id": "karez_influence",
+    "type": "construction_technique",
+    "label": "坎儿井技术影响",
+    "related": ["dark_tunnel_tech"],
+    "innovation": "中亚水利技术对宁夏的影响",
+    "period": "元明时期",
+    "improvement": "引入暗挖技术",
+    "details": "蒙古西征中亚后，中亚水利技术随回纥工匠东迁。暗洞技术与中亚坎儿井的'暗挖法'有相似之处，甃石为洞，穿渠引水，暗洞形制与坎儿井传入河西走廊后，当地创制的洞子渠，颇相类似。"
+  },
+  {
+    "id": "water-gates-system",
+    "type": "灌溉工程技术",
+    "label": "分闸控制系统",
+    "related": "河西地区渠坝系统",
+    "innovation": "在渠坝下设置分闸控制水流",
+    "period": "明朝",
+    "improvement": "允许精确控制水量分配",
+    "details": "每处渠坝下设一定数目的分闸，用于拦阻、截流河水，控制分水。如嘉靖时期，甘州后卫的洪水头渠有10道分闸，洪水二渠有闸门4处，15处渠坝共设78道闸门。"
+  },
+  {
+    "id": "reinforcement-technique",
+    "type": "水利工程技术",
+    "label": "渠坝加固技术",
+    "related": "河西地区渠坝维修",
+    "innovation": "使用本地材料加固渠道",
+    "period": "明朝",
+    "improvement": "适应当地干旱环境的水利建设方法",
+    "details": "堰坝维修一般就地取材，以垒石堆草，用石间塞草、拉沙堵水的办法加固渠道。河西地区因为干旱的生态环境，地表多禾本植物。其中'白茨柴质地坚硬，耐焚烧，结捆成束，最宜拦水堵坝'，因此渠坝修建常常选用当地的白茨柴、芨芨草等禾本植物充作工程原材料。"
+  },
+  {
+    "id": "water-management-system",
+    "type": "水利管理技术",
+    "label": "分水制度",
+    "related": "河西地区水利秩序",
+    "innovation": "建立水资源分配制度",
+    "period": "明代正德至嘉靖年间",
+    "improvement": "解决灌溉用水矛盾，规范地方水利秩序",
+    "details": "正德二年(1507年)，石羊河下游的镇番卫出现了最早有关灌溉次序和灌溉时间的用水规定。镇番卫民张浦因三岔堡的分水灌溉不合理，经过与卫所协商，'议于七昼夜内，令张浦等使水四昼夜。其三昼夜听从镇番屯民分使'，由此成为定规。明代镇番卫订立水规：每年五月初一将乌牛等坝水利尽行闭塞，卸水七昼夜，通流蔡旗等。"
+  },
+  {
+    "id": "water-tax-system",
+    "type": "水利管理技术",
+    "label": "水费征收制度",
+    "related": "河西地区水利管理",
+    "innovation": "以渠系为单位征收水费",
+    "period": "明代万历年间",
+    "improvement": "实现水利设施维护的资金自筹",
+    "details": "水费征收则以渠系为单位，基层设立水首负责管理渠坝事务和征收水税，水费按灌溉面积由受益农民分摊，用以支付渠道岁修等费用。如万历三十年(1602年)镇番卫'小坝口水首沈养中欠水税，有司以渎职论之，除职不用'；万历四十二年(1614年)，始征收水牌税，按亩纳银，每亩地交银一分。"
+  },
+
+
+
+  {
+    "id": "river-dredging-vusong",
+    "type": "水利工程技术",
+    "label": "河道疏浚技术",
+    "related": "太湖下游排水及吴淞江治理工程",
+    "innovation": "无相关明确信息",
+    "period": "清朝",
+    "improvement": "不断尝试解决河道淤塞问题，但未取得完全成功",
+    "details": "文档中未详细提及具体技术细节，仅表明朝廷在治理太湖下游排水及吴淞江淤塞问题时运用了河道疏浚技术"
+  },
+  {
+    "id": "dujiangyan-renovation",
+    "type": "水利工程技术",
+    "label": "都江堰修缮",
+    "related": "改善都江堰用竹笼、卵石修建易朽问题，提高灌区灌溉率，改善春季用水条件",
+    "innovation": "将堤堰工程改用砌石，都江砌石鱼嘴外设有数层竹笼卵石保护",
+    "period": "清光绪三、四年（1877年 - 1878年）",
+    "improvement": "共疏浚内外江干流及江安河入口段河道70多里，砌石埂1.2万余丈，解决了都江堰每年维修耗费过多人力物力财力的问题",
+    "details": "四川总督丁宝桢主持大修都江堰，包括都江鱼嘴、人字堤、仰天窝和蒲阳河鱼嘴等，将堤堰工程改用砌石，解决了竹笼、卵石修建的鱼嘴和护岸易朽的问题"
+  },
+  {
+    "id": "tongjiyan-transformation",
+    "type": "水利工程技术",
+    "label": "通济堰改造",
+    "related": "提高通济堰灌区灌溉率，改善春季用水条件，与都江堰灌区联成一片",
+    "innovation": "将通济堰引水口上移，引都江堰外江干渠尾水入堰",
+    "period": "乾隆二十年（1755年）",
+    "improvement": "限定了流域设置的筒车数量，协调上下游用水量，提高了灌区灌溉率",
+    "details": "通济堰在乾隆年间进行改造，限定筒车数量，将引水口上移，引都江堰外江干渠尾水入堰"
+  },
+  {
+    "id": "madatang-yan-construction",
+    "type": "水利工程技术",
+    "label": "马大塘堰兴建",
+    "related": "灌溉石梘槽上下田三坝",
+    "innovation": "",
+    "period": "乾隆二十三年（1758年）冬",
+    "improvement": "",
+    "details": "高县知县李鸿楷率民兴修马大塘堰，可灌溉石梘槽上下田三坝"
+  },
+  {
+    "id": "brickstone-masonry-technology",
+    "type": "砖石类物料应用技术",
+    "label": "砖石砌体结构技术",
+    "related": "大运河工程、河堤建造、河岸护坡、水闸建造、河床修复",
+    "innovation": "采用优质砖石材料，通过精确的几何设计和特殊的砌筑技巧，如榫卯结构、斜交砌法、鱼肚式砌法等，增加砌体的牢固性和稳定性",
+    "period": "明清时期",
+    "improvement": "不断优化砖石选择标准和砌筑工艺，提高砌体的质量和稳定性，以适应不同的工程要求和地理环境",
+    "details": "在河工应用中，利用砖石的平整形状和规则尺寸，通过砌筑形成稳定的结构。注重砖石的质量，采用石灰石、砂岩等优质材料，并对其进行烧制或雕刻加工。施工时，工匠采用准确的测量和规划，运用特殊砌筑技巧，使砌体能够承受水流和水压的作用，适应不同的河道形态和水流条件"
+  },
+  {
+    "id": "river-blocking-comprehensive-technology",
+    "type": "河工堵口技术",
+    "label": "堵口工程综合技术",
+    "related": "清代黄河大工",
+    "innovation": "形成了一套较为成熟的堵口流程和方法，包括根据决口情况采取不同的堵合策略，如先小口后大口、先上游后下游；设立悬赏制度加快施工进度；明确闭气方法等",
+    "period": "清代",
+    "improvement": "不断优化堵口流程和技术细节，如对不同类型决口的堵合方法进行细化；规范引河挑挖的流程和标准；完善闭气方法以确保堵口效果",
+    "details": "堵口时需先确定决口是单一口门还是多重口门，根据口门宽度和位置分为大口、小口、上游、下游，遵循'先小口，后大口，先上游，后下游'原则进行堵合。对于不同类型决口，如顶冲决口、埽湾决口、疏防决口等有不同的应对方法。若正河夺溜，需在决口处上游筑挑水坝并挑挖引河，引河具有分流、迎溜、保堤作用，挑挖时需注意河头水面高于河尾水面等条件。施工中实行悬赏制度，以加快挑挖引河进度。合龙后，采用在正坝堵合后加压厚土并修筑关门埽、双坝合龙时用边坝合龙闭气并填筑土柜、修筑养水盆等方法闭气"
+  },
+  {
+    "id": "river-material-management",
+    "type": "河工物料管理技术",
+    "label": "大工物料采办与管理",
+    "related": "清代黄河大工",
+    "innovation": "建立了大工物料采办的预估和协济机制，在物料紧张时，由临省协济物料以满足大工需求",
+    "period": "清代",
+    "improvement": "对物料采办的预估和管理不断完善，明确不同情况下物料的采办和供应方式，但后期因大工频兴、清廷对地方掌控减弱等问题，导致物料采办困难，出现加价购料等情况",
+    "details": "大工物料采买有预估且秉承多估原则，但实际堵合中常不敷使用。决口若在汛期后，物料可能用尽，需临时采办或由临省协济，如乾隆三十一年铜沛厅属韩家堂决口，徐州物料不足，由山东、河南协济；嘉庆二十五年马营坝大工，河南物料短缺，由直隶、南河、山东协济。物料采办困难导致清廷通过加价形式购入物料，引发投机倒把现象，增加大工耗费"
+  },
+  {
+    "id": "river-labor-management",
+    "type": "河工人员管理技术",
+    "label": "河工人员调配与管理",
+    "related": "清代黄河大工",
+    "innovation": "形成了河督、地方督抚、督办官员、地方官员临时补充与河工投效人员等多层次的人员调配体系，以满足大工对人力的需求",
+    "period": "清代",
+    "improvement": "不断规范人员调配和管理的制度，如明确河督与地方督抚的权责关系，规范河工投效人员的招募、管理和任用等，但后期出现投效人员管理混乱等问题",
+    "details": "河督是大工主要负责人，地方督抚协助，两者权责在不同时期有所变化，从清初的权责不明晰到雍正后逐渐明确。督办官员由朝廷派遣，多为有治河经验者，负责监督工程进度和质量。地方官员在大工兴举时临时协办，协助物料运输和工程管理。河工投效人员包括河督荐举、临时派发和自发投效等方式，乾隆朝出台投效章程对其进行规范，包括对投效人员身份、流程、违规处罚等方面的规定，但后期出现捐资投效等特殊形式，导致投效管理出现混乱"
+  },
+  {
+    "id": "timber-material-application",
+    "type": "薪木类物料应用技术",
+    "label": "木料加工与应用技术",
+    "related": "漕船制造、木闸建造、桩基打造、桥梁建造、木龙扎制",
+    "innovation": "根据不同木料的特性，应用于不同的河工项目，如利用杉木、榆木等打造桩基、建造水闸和漕船等",
+    "period": "清时期",
+    "improvement": "不断改进木料的加工工艺和应用方式，提高木料在河工中的使用效率和效果",
+    "details": "在大运河工程中，不同木质的木料有不同用途。树干用于制船、建造船闸、打造桩基等；梢料用于卷埽。例如，建造漕船时，根据船的类型和规格使用不同数量和种类的木料；打造桩基时，在软基沙土或淤泥中埋设木桩，如元代在苏州吴江修建太湖沿岸的吴江塘路，用杉木梢打入土中作路基"
+  },
+  {
+    "id": "sandsoil-dike-construction",
+    "type": "沙土与杂料应用技术",
+    "label": "沙土筑堤技术",
+    "related": "运河堤岸建设",
+    "innovation": "采用分层硪筑、分段硪筑的方法夯实沙土堤岸，并使用石杵、木夯等工具对堤岸角落进行固化处理，同时加强质量监控",
+    "period": "清时期",
+    "improvement": "不断优化筑堤工艺和质量检测方法，提高沙土堤岸的坚固性和稳定性",
+    "details": "筑堤时，根据土色和质地进行处理，如细沙需用水灌足，两合土需行硪两遍等。使用石硪进行分层、分段硪筑，确保筑堤质量。对于堤岸角落不便于硪筑的地方，用石杵、木夯进行固化处理。同时，通过漏锥、打签等方式对堤岸质量进行检测"
+  },
+  {
+    "id": "qingtshuitan-dike-technology",
+    "type": "水利工程技术",
+    "label": "清水潭堤工修筑技术",
+    "related": "清水潭堤工建设与改造工程",
+    "innovation": "康熙十六年靳辅采用“避深就浅，于决口上下退离五六十丈为偃月形，抱决口两端而筑之”的方法修筑堤工；康熙十九年在宝应至江都运河东堤新建和改建减水坝；康熙三十八年堵塞高邮以北减水坝",
+    "period": "清康熙年间",
+    "improvement": "改变了之前堤工屡塞屡冲的局面，在一定程度上缓解了清水潭决口的水患威胁，调整了黄淮泄水通道，保障了运河及周边地区安全",
+    "details": "靳辅的方法改变了传统的堤工修筑方式，通过调整堤工形状和减水坝布局，增强了堤工的稳定性和对水流的调节能力"
+    },
+    {
+    "id":"duotian-cultivation",
+    "type": "农田改造技术",
+    "label": "垛田营造与肥田技术",
+    "related": "兴化垛田营造工程",
+    "innovation": "发明并运用泥罱子等工具，采用罱泥、搌水草与扒苲等独特的肥田增产方法",
+    "period": "清时期",
+    "improvement": "将湖荡滩地改造成肥沃的垛田，提高了土地肥力和农作物产量，增强了抗灾能力",
+    "details": "罱泥是用泥罱子在湖滩、浅河中捞取淤泥肥田并加固垛圪；搌水草是在夏天用“搌管”夹水草铺在蔬菜行间；扒苲是用“苲耙”扒出河底草肥，这些方法充分利用了当地的自然资源"
+    },
+    {
+    "id": "taihu-governance-technology",
+    "type": "水利治理技术（未明确具体技术）",
+    "label": "清代太湖流域水利治理技术",
+    "related": "清代太湖流域治水工程",
+    "innovation": "未提及",
+    "period": "1644 - 1911",
+    "improvement": "未有效解决太湖下游排水及吴淞江淤塞问题，水涝灾害仍较严重",
+    "details": "未提及具体技术内容"
+    },
+    {
+    "id": "yellow-river-great-project",
+    "type": "水利工程技术",
+    "label": "清代黄河大工技术",
+    "related": "清代黄河大工",
+    "innovation": "在堵口技术方面，根据决口规模和位置制定了“先小口，后大口，先上游，后下游”的堵合原则；在物料采买技术上，形成了较为详细的估算方法；施工管理上，设立临时官职体系，明确各岗位权责；善后环节中，完善了善后保固制度和河神祭祀等文化传统。",
+    "period": "清代（1644 - 1911）",
+    "improvement": "相较于前代，在技术细节上更加完善和细化，如对不同类型决口的堵合方法有更深入的研究；在物料管理上，规范了采买和使用流程；施工管理中，加强了对人员的组织和调配；善后方面，强化了工程质量的保障措施和对河神祭祀的重视。",
+    "details": "堵口技术：针对单一口门和多重口门，以及不同位置的决口，采取不同堵合方法，如筑挑水坝、挑挖引河等。引河开凿需注意水面高差，有明确的施工要求和分段承修制度，并设立悬赏制度加快进度。物料采买技术：根据决口规模估算所需物料，如土方、埽料等，有详细的计算方法。采买过程中存在物料紧张问题，常需临省协济。施工管理技术：设立河督、地方督抚等管理体系，大工兴举时临时设置众多官职，明确各职责，河兵负责维护秩序和协助施工，民夫通过佥派或雇募参与工程。工程善后技术：善后包括对大堤的加高培护，保固期限为一年，期间若有冲决由相关官员分赔。大工合龙后常进行碑文记事和祭祀河神活动，河神祭祀规格高，流程繁琐。"
+    }
+]

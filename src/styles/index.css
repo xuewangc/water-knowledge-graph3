@@ -1,0 +1,377 @@
+/* 全局重置和基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1976d2;
+    --primary-dark: #1565c0;
+    --primary-light: #bbdefb;
+    --project-color: #4CAF50;
+    --tech-color: #FFA500;
+    --flood-color: #DC143C;
+    --derived-tech-color: #FFD700;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 头部样式 */
+.app-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.app-description {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.header-legend {
+    display: flex;
+    gap: 16px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.legend-label {
+    font-size: 0.9rem;
+}
+
+/* 主内容区样式 */
+.main-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.left-panel {
+    width: 250px;
+    background-color: white;
+    border-right: 1px solid #e0e0e0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: auto;
+}
+
+.center-panel {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-panel {
+    width: 300px;
+    background-color: white;
+    border-left: 1px solid #e0e0e0;
+    padding: 16px;
+    overflow-y: auto;
+}
+
+/* 搜索栏样式 */
+.search-bar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.search-input-container {
+    position: relative;
+    flex: 1;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.clear-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.clear-button:hover {
+    color: #333;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.search-button:hover {
+    background-color: var(--primary-dark);
+}
+
+/* 时间轴样式 */
+.timeline-container {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.timeline-title {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.range-handle {
+    position: absolute;
+    top: 18px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    cursor: ew-resize;
+    z-index: 2;
+}
+
+.range-handle.dragging {
+    border-width: 3px;
+}
+
+.handle-label {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+.time-range-display {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: #666;
+}
+
+.year-range {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.dynasty-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.dynasty-button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.timeline {
+    height: 60px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.timeline-background {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+.dynasty-period {
+    position: absolute;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.timeline-ticks {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+.timeline-tick {
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.tick-mark {
+    width: 1px;
+    height: 10px;
+    background-color: #999;
+    margin: 0 auto;
+}
+
+.tick-label {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 4px;
+    color: #666;
+}
+
+.selected-range {
+    position: absolute;
+    top: 20px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    z-index: 1;
+}
+
+/* 详情面板样式 */
+.detail-panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-empty {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+}
+
+.detail-header {
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-header h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.detail-type {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.detail-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.detail-section {
+    margin-bottom: 20px;
+}
+
+.detail-section h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.detail-item {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.item-label {
+    color: #666;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.item-value {
+    flex: 1;
+}
+
+.tech-list, .related-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tech-list li, .related-list li {
+    margin-bottom: 4px;
+}
+
+.description, .benefits, .significance, .innovation, .improvement, .impact, .response {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.related-projects {
+    margin-top: 10px;
+}
+
+.related-item {
+    margin-bottom: 8px;
+}

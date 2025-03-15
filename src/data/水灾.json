@@ -1,0 +1,631 @@
+[
+  { 
+    "id": "legend-yao-flood",
+    "type": "flood", 
+    "label": "尧时大洪水", 
+    "related": ["传说", "治水神话"],
+    "impact": "广泛水灾",
+    "response": "先鲧治水失败，后大禹治水成功",
+    "details": "据《史记·夏本纪》，在传说中的尧的时代发生了洪水，让鲧治水结果失败，以后在舜的时代又让鲧的儿子大禹治水，结果取得了成功"
+  },
+  { 
+    "id": "spring-autumn-drought",
+    "type": "drought", 
+    "label": "春秋时期旱灾频发", 
+    "related": ["农业生产", "占卜祈雨"],
+    "impact": "农业减产",
+    "response": "占卜祈雨",
+    "details": "根据文献记载，春秋时代华北地区旱灾多有发生，甲骨文中有大量占卜降雨的记录，表明旱地农耕依赖雨水"
+  },
+  { 
+    "id": "warring-states-huanghe-flood",
+    "type": "flood", 
+    "label": "战国黄河水患", 
+    "related": ["黄河治理", "堤防建设"],
+    "impact": "多国受灾",
+    "response": "各国修筑堤防",
+    "details": "《汉书·沟洫志》记载战国时代的齐、赵、魏等国各自构筑黄河堤防的事件，表明多国受到黄河水患影响"
+  },
+  { 
+    "id": "han-huanghe-flood",
+    "type": "flood", 
+    "label": "前汉时期水灾增加", 
+    "related": ["黄河泛滥", "灾害应对"],
+    "impact": "破坏农田和居住地",
+    "response": "黄河治水成为国家重要工程",
+    "details": "前汉时期与旱灾次数相同的水灾增加，黄河治水因秦统一中国才整体纳入视野，实际上，前汉时与漕运通路的确保及关东诸郡的治水同时成为重要的问题"
+  },
+  { 
+    "id": "han-water-drought-disaster",
+    "type": "integrated", 
+    "label": "汉代水旱灾害", 
+    "related": ["农业生产", "赋税政策"],
+    "impact": "生产不稳定",
+    "response": "田租减免",
+    "details": "汉代对水旱灾害的直接对应还比较少，田租的减免依然很多，这种情况也许表明农业灌溉的不稳定"
+  },
+  { 
+    "id": "shu-jiangyan-flood",
+    "type": "flood", 
+    "label": "蜀地洪水频发", 
+    "related": ["都江堰建设", "农业安全"],
+    "impact": "扇状地洪水灾害",
+    "response": "修建都江堰",
+    "details": "战国末期的秦国，李冰在新占领的领地蜀（成都）建造都江堰，把岷江分流，削除以往人们居住的扇状地带的洪水之患"
+  },
+
+  {
+    "id": "tang-kaicheng-tongji-dry-837",
+    "type": "flood",
+    "label": "737年通济渠枯竭",
+    "related": "通济渠",
+    "impact": "导致扬州运河竭",
+    "response": "无明确记载",
+    "details": "唐开成二年（837年）夏，旱，扬州运河竭"
+  },
+  {
+    "id": "tang-tianbao-suiyang-flood-756",
+    "type": "flood",
+    "label": "756年睢阳保卫战水患",
+    "related": "睢阳",
+    "impact": "阻碍了叛军沿运河南下",
+    "response": "张巡、许远等人带领睢阳军民有效抵抗叛军",
+    "details": "唐天宝十五年（756年），张巡在宁陵北抗击叛军，杀人万余，投尸于汴，水为不流"
+  },
+  {
+    "id": "sui-early-canal-flood",
+    "type": "水灾事件",
+    "label": "运河泛滥",
+    "related": "隋代",
+    "impact": "严重影响漕运与民生",
+    "response": "加强保护堤坝与疏通河道",
+    "details": "隋代初期由于降雨过多导致运河多地泛滥，损毁堤岸，民众受苦。"
+  },
+  {
+    "id": "tang-caihe-flood",
+    "type": "水灾事件",
+    "label": "淮河水灾",
+    "related": "唐代",
+    "impact": "导致区域粮食短缺",
+    "response": "减免赋税与调拨粮食",
+    "details": "唐朝时期因持续暴雨引发淮河水位剧增，多地陷入水灾困境，严重影响农作物生长。"
+  },
+  {
+    "id": "sui-tang-huanghe-flood",
+    "type": "水灾",
+    "label": "黄河决口",
+    "related": "农业损失",
+    "impact": "粮食减产",
+    "response": "加固河堤",
+    "details": "隋唐时期，由于黄河频繁决口，造成大范围的水灾，农田被淹，粮食产量锐减，政府采取加固河堤的措施以防止灾情加重。"
+  },
+
+  {
+    "id": "song-taipingxingguo-bianhe-977",
+    "type": "洪水",
+    "label": "汴河决口",
+    "related": "通济渠",
+    "impact": "浸民田，坏庐舍",
+    "response": "发丁夫三千五百人塞之",
+    "details": "太平兴国二年（977年）开封大宁堤决口"
+  },
+  {
+    "id": "song-jingde-bianhe-1004",
+    "type": "洪水",
+    "label": "汴河决口",
+    "related": "通济渠",
+    "impact": "浸民田，害稼",
+    "response": "遣使护塞，逾月功就",
+    "details": "景德元年（1004年）宋州段决口"
+  },
+  {
+    "id": "song-xinning-bianhe-1075",
+    "type": "洪水",
+    "label": "汴河决口",
+    "related": "通济渠",
+    "impact": "阻滞漕运，威胁京师",
+    "response": "暂停漕运，疏导分流",
+    "details": "熙宁八年（1075年）汴河泛滥"
+  },
+  {
+    "id": "song-qiande-huanghe-967",
+    "type": "flood",
+    "label": "967年黄河决口",
+    "related": "黄河",
+    "impact": "导致汴河泛滥",
+    "response": "北宋政府开始实行“岁修”之制",
+    "details": "北宋乾德五年（967年），黄河下游“岁修”之制从此开始"
+  },
+  {
+    "id": "song-huangyou-bianhe-1051",
+    "type": "flood",
+    "label": "1028年汴河淤塞",
+    "related": "汴河",
+    "impact": "影响漕运",
+    "response": "北宋政府加强对汴河疏浚",
+    "details": "宋仁宗皇祐三年（1051年）八月，“河涸舟不通，令河渠司自口浚治，岁以为常”"
+  },
+  {
+    "id": "song-xinning-huanghe-1077",
+    "type": "flood",
+    "label": "1077年黄河改道",
+    "related": "黄河",
+    "impact": "导致汴河湮没",
+    "response": "北宋政府实施导洛通汴工程",
+    "details": "宋神宗熙宁十年（1077年）七月，黄河在下游再次发生改道，并向南流向泗水"
+  },
+  {
+    "id": "song-nanchao-chao-hu-1200",
+    "type": "水灾事件",
+    "label": "巢湖水灾",
+    "related": "南宋",
+    "impact": "对民生造成重创，农田淹没",
+    "response": "派遣工程师进行救援与河道整治",
+    "details": "南宋时期巢湖因持续暴雨导致水位暴涨，淹没附近村庄，民众流离失所。"
+  },
+  {
+    "id": "song-nanchao-zhejiang-1200",
+    "type": "水灾事件",
+    "label": "浙江水灾",
+    "related": "南宋",
+    "impact": "严重影响粮食生产与购销",
+    "response": "给予灾民紧急粮食援助与安置",
+    "details": "南宋政权因水灾影响粮食供应，政府组织有效应对措施以减轻灾后影响。"
+  },
+  {
+    "id": "song-changjiang-flood-1200",
+    "type": "水灾",
+    "label": "长江洪水",
+    "related": "城市损毁",
+    "impact": "影响民生与交通",
+    "response": "调度救援物资",
+    "details": "宋代长江流域发生严重洪灾，导致城市受损、居民流离失所，政府及时调度救援物资，组织救援却仍面临巨大挑战。"
+  },
+
+  {
+    "id": "flood-yuan23",
+    "type": "flood",
+    "label": "至元二十三年水灾",
+    "year": "1286",
+    "related": ["wusong-river-yuan24"],
+    "impact": "坏民田一万七千二百顷",
+    "response": "水利条画制定",
+    "details": "杭州、平江二路属县大水，坏民田一万七千二百顷"
+  },
+  {
+    "id": "flood-yuan24",
+    "type": "flood",
+    "label": "至元二十四年水灾",
+    "year": "1287",
+    "related": ["wusong-river-yuan24"],
+    "impact": "浙西诸路水灾",
+    "response": "免今年田租十之二",
+    "details": "浙西诸路水灾，朝廷免今年田租十之二"
+  },
+  {
+    "id": "flood-yuan29",
+    "type": "flood",
+    "label": "至元二十九年水灾",
+    "year": "1292",
+    "related": ["wusong-river-yuan24"],
+    "impact": "浙西多地受灾",
+    "response": "免田租百二十五万七千八百八十三石",
+    "details": "湖州、平江、嘉兴、镇江、扬州、宁国、太平七路大水，免田租百二十五万七千八百八十三石"
+  },
+  {
+    "id": "flood-dade7",
+    "type": "flood",
+    "label": "大德七年水灾",
+    "year": "1303",
+    "related": ["wusong-river-dade"],
+    "impact": "民饥者十四万",
+    "response": "淫雨，朝廷赈济",
+    "details": "浙西淫雨，民饥者十四万"
+  },
+  {
+    "id": "flood-zhishun2",
+    "type": "flood",
+    "label": "至顺二年水灾",
+    "year": "1331",
+    "related": [],
+    "impact": "溺死男女百五十七人，漂没庐舍资畜千九百七十家",
+    "response": "朝廷救济",
+    "details": "吴江州大风雨，太湖溢，漂没庐舍资畜千九百七十家；湖州安吉县久雨，太湖溢，漂民居二千八百九十户，溺死男女百五十七人"
+  },
+  {
+    "id": "flood-tianli1",
+    "type": "flood",
+    "label": "天历元年水灾",
+    "year": "1328",
+    "related": ["wusong-river-taiding"],
+    "impact": "没民田万四千余顷",
+    "response": "朝廷救济",
+    "details": "杭州、嘉兴、平江、湖州、建德、镇江水灾，没民田万四千余顷"
+  },
+  {
+    "id": "flood-zhishun1",
+    "type": "flood",
+    "label": "至顺元年水灾",
+    "year": "1330",
+    "related": [],
+    "impact": "没田三万六千六百余顷，饥民四十万五千五百七十余户",
+    "response": "朝廷救济",
+    "details": "松江、平江、嘉兴、湖州等路水，漂民庐，没田三万六千六百余顷，饥民四十万五千五百七十余户"
+  },
+
+  {
+    "id": "yongjia-tsunami-yuan1348",
+    "type": "tsunami",
+    "label": "永嘉海啸",
+    "year": "1348",
+    "related": ["yongjia-seawall-yuan1331"],
+    "impact": "数千人死亡，房屋被毁",
+    "response": "官方组织修复海塘，加强防潮措施",
+    "details": "元至正八年（1348年），永嘉县发生海啸，海潮冲上平陆，造成数千人死亡，房屋被毁。"
+  },
+  {
+    "id": "wenzhou-tsunami-yuan1354",
+    "type": "tsunami",
+    "label": "温州海啸",
+    "year": "1354",
+    "related": ["nantang-song1187"],
+    "impact": "数千人死亡，房屋被毁",
+    "response": "官方组织修复海塘，加强防潮措施",
+    "details": "元至正十四年（1354年），温州发生海啸，海潮冲上平陆，造成数千人死亡，房屋被毁。"
+  },
+  {
+    "id": "leqing-tide-yuan1324",
+    "type": "tidal-flood",
+    "label": "乐清海潮",
+    "year": "1324",
+    "related": ["zhaogong-pond-song1140"],
+    "impact": "房屋被毁，居民流离失所",
+    "response": "官方组织修复海塘，加强防潮措施",
+    "details": "元泰定元年（1324年），乐清县发生海潮，海潮冲上平陆，造成房屋被毁，居民流离失所。"
+  },
+  {
+    "id": "dongtiaoxi-flood-yuan",
+    "type": "flood",
+    "label": "东苕溪水流横冲事件",
+    "related": ["new-canal-yuan"],
+    "impact": "元代东苕溪水流因天目山山区围垦扩大导致水土流失加剧，汛期水流频繁横入嘉湖平原，冲击湖漾区域的圩田。",
+    "response": "官方开始沿东苕溪构筑外围堤塘以保障平原区的圩田。",
+    "details": "东苕溪水流受太湖回壅水流顶托不能及时宣泄，加上河床淤塞与河岸失修，导致河水不断向东部平原地区泛滥，威胁圩田安全。"
+  },
+  {
+    "id": "qingfu-embankment-breach-yuan",
+    "type": "breach",
+    "label": "青塘堤岸崩溃",
+    "related": ["dyke-canal-integration"],
+    "impact": "元末堤岸崩坏，圩田被淹，百姓受灾。",
+    "response": "后至元二年(1336)，署理嘉兴路儒学录的程郇撰《复青塘堤岸记》,记录了修复工作。",
+    "details": "乌程包围震泽，苕水自天目来，潆纡曲折，过青塘门，东北与霅水合而入于太湖，泛滥洋溢。数十年来失于修治，堤外水决，往来者病于徒涉，而沿堤之田亦成沮洳。"
+  },
+  {
+    "id": "silting_issue",
+    "type": "technical_issue",
+    "label": "泥沙淤积问题",
+    "related": ["han_yan_canal", "tang_lai_canal", "bottom_stone_tech"],
+    "impact": "减少引水能力，需频繁疏浚",
+    "response": "元代郭守敬等进行大规模疏浚，明代引入底石技术",
+    "details": "元至元元年（1264），诏遣唆脱颜、郭守敬行视西夏河渠，因'兵乱以来，废坏淤浅'。郭守敬'更立闸堰，皆复其旧'。明代后期在渠道中铺设底石，可据实际使用年限，较为科学地测量泥沙淤积数据。"
+  },
+  {
+    "id": "flood_jianghan_mid_ming",
+    "type": "flood",
+    "label": "明代中期江汉平原水灾",
+    "related": ["dike_yangtze_river", "dike_hanjiang_river", "dike_yuan_system"],
+    "impact": "弥漫数百里，人烟几绝，农田被淹，民生困难",
+    "response": "修筑和加固堤防，建立堤甲法管理制度，开展仓储建设",
+    "details": "如嘉靖庚申年间，潜江县黄潭堤决堤造成弥漫数百里，人烟几绝的惨重后果，促使当地政府加强堤防建设和管理。"
+  },
+  {
+    "id": "disaster_management_system",
+    "type": "management",
+    "label": "明代江汉平原灾害应对机制",
+    "related": ["tech_management_system", "dike_management_system"],
+    "impact": "通过预防和应对减轻水灾影响",
+    "response": "建立预备仓、社仓、常平仓等储粮系统，用于赈济灾民；建立堤防管理制度",
+    "details": "形成了完整的灾前预防和灾后应对机制，包括水利建设、仓储建设和生态建设等灾前预防措施，以及灾后的国家和民间应对措施。"
+  },
+  {
+    "id": "ecological_destruction",
+    "type": "environmental",
+    "label": "垸田开发导致的生态破坏",
+    "related": ["dike_yuan_system", "tech_dike_construction"],
+    "impact": "改变自然水流，增加水灾风险，加剧水患",
+    "response": "部分地区尝试实施生态建设措施，如沿堤植柳、种草等",
+    "details": "随着大量人口迁入和垸田开发，生态环境遭到严重破坏，水灾频率增加。到明末，战争导致人口减少，垸田荒芜，自动'退田还湖'，反而在一定程度上缓解了水患。"
+  },
+  {
+    "id": "ming-wanli-flood-1608",
+    "type": "natural-disaster",
+    "label": "万历三十六年大水灾",
+    "related": "siyi-embankment-ming",
+    "impact": "嘉鱼自马鞍山至下簰洲，大水溃决，仅存十一处。四邑居民登山，房屋淹没，流离饥饿，从古来所未有",
+    "response": "李憭等乡贤积极倡导修筑四邑公堤，以应对频繁的水患",
+    "details": "此次水灾被记载为'嘉、蒲、武、咸特大洪水'，造成大量民众无家可归，是明末嘉鱼等地区面临的严重自然灾害之一"
+  },
+  {
+    "id": "chemical-bay-flood-ming",
+    "type": "flood",
+    "label": "化湾塘决口事件",
+    "related": ["west-embankment-ming"],
+    "impact": "永乐年间，东苕溪水流横决化湾塘，闸门损毁，淹没人民。",
+    "response": "朝廷遣户部尚书夏原吉、通政使赵岳来浙勘督修筑，三年后告成。",
+    "details": "该水灾反映了东苕溪下游河床淤塞与运河水网化后水流调蓄能力不足导致的漕运与圩田利益难以兼顾的矛盾。"
+  },
+  {
+    "id": "canal-breach-ming",
+    "type": "breach",
+    "label": "正统年间运河堤防溃决",
+    "related": ["east-embankment-ming"],
+    "impact": "正统十年，运河堤防再次崩溃，威胁漕运和圩田安全。",
+    "response": "朝廷遣工部侍郎周经来浙，动支仓米七千七百石，南关厂木三千株，筑治修复。",
+    "details": "频繁的堤防溃决反映了东苕溪水流与运河水流的矛盾无法根本解决，官方只能通过不断加固堤防来维持运河安全。"
+  },
+  {
+    "id": "lake_drainage_issue",
+    "type": "technical_issue",
+    "label": "湖泊排水问题",
+    "related": ["han_yan_canal", "dark_tunnel_tech"],
+    "impact": "影响渠道正常运行，造成周边积水",
+    "response": "明代开发暗洞技术解决排水问题",
+    "details": "因'西河在汉渠东，渠西各湖之水阻汉渠不能达，故穿汉渠下，甃石为洞，横通湖水'。汉延渠周边逐渐因农田灌溉余水宣泄不畅形成若干湖泊，即'西河东、西各湖'。明代开发暗洞技术解决这一问题。"
+  },
+  {
+    "id": "cross_canal_irrigation_issue",
+    "type": "technical_issue",
+    "label": "干渠间灌溉问题",
+    "related": ["flying_trough_tech"],
+    "impact": "部分农田难以灌溉",
+    "response": "明代开发飞槽技术解决跨渠引水问题",
+    "details": "加之各干渠间亦有若干土地需因势利导，借用旁渠之水，亟待渠道工程革新。明代开发飞槽技术，浇灌干渠间因引水困难而欠浇的田地，提高土地浇灌率和水资源利用效率。"
+  },
+  {
+    "id": "wood_material_deterioration",
+    "type": "technical_issue",
+    "label": "木材腐朽问题",
+    "related": ["wood_stone_sluice", "wood_to_stone_transition"],
+    "impact": "增加维护频率和成本",
+    "response": "明代实施'易木为石'技术革新",
+    "details": "明后期记载'唐、汉两渠闸壩，皆元郭守敬、董文用旧制，向皆用木，岁久易朽，劳费不赀'。明隆庆六年（1572）时任宁夏卫佥事汪文辉'始奏驱石以易制式'，解决了木质水利设施易腐朽的问题。"
+  },
+  {
+    "id": "xuande-flood-1426",
+    "type": "洪灾",
+    "label": "宣德元年镇番卫淫雨连连",
+    "related": "渠道崩塌",
+    "impact": "渠道久经雨水浸泡，遇水渠道坍塌",
+    "response": "无记载",
+    "details": "宣德元年(1426年)，镇番卫的渠道因为淫雨连连，渠道久经雨水浸泡，遇水渠道坍塌。"
+  },
+  {
+    "id": "hongzhi-sandstorm-1496",
+    "type": "风沙灾害",
+    "label": "弘治九年镇番卫风沙侵害",
+    "related": "农田掩埋",
+    "impact": "风沙来袭，压埋镇番卫青松堡的田地二十余顷",
+    "response": "无记载",
+    "details": "弘治九年(1496年)，风沙来袭，压埋镇番卫青松堡的田地二十余顷。"
+  },
+  {
+    "id": "wanli-sandstorm-1585",
+    "type": "风沙灾害",
+    "label": "万历十三年镇番卫风沙持续",
+    "related": "农田掩埋",
+    "impact": "风沙持续十数日，田地压埋，一片萧条之景",
+    "response": "无记载",
+    "details": "万历十三年(1585年)，风沙持续十数日，田地压埋，一片萧条之景。肃州卫边外一片沙碛，风沙时常侵袭，掩埋农田，压倒作物，可谓'流沙压农田'。"
+  },
+  {
+    "id": "chenghua-drought-1477",
+    "type": "旱灾",
+    "label": "成化十三年甘州大旱",
+    "related": "粮食减产",
+    "impact": "甘州大旱以致无征子粒",
+    "response": "减免征收",
+    "details": "成化十三年(1477年)，甘州大旱以致无征子粒。"
+  },
+  {
+    "id": "zhengde-drought-1520",
+    "type": "旱灾",
+    "label": "正德十五年甘州等卫大旱",
+    "related": "粮食减产",
+    "impact": "甘州等卫大旱",
+    "response": "无记载",
+    "details": "正德十五年(1520年)，甘州等卫大旱。"
+  },
+  {
+    "id": "jiajing-drought-1529-1530",
+    "type": "旱灾",
+    "label": "嘉靖八年至九年连续大旱",
+    "related": "粮食减产",
+    "impact": "甘州等地连续大旱",
+    "response": "无记载",
+    "details": "嘉靖八年至九年(1529-1530年)连续大旱。"
+  },
+
+  {
+    "id": "shunzhi-huanghe-dike-1644",
+    "type": "水灾",
+    "label": "顺治元年黄河决口",
+    "related": "黄河后续一系列治理工程，如考城流通口大工等",
+    "impact": "决口地点涉及温县、小宋口、单县柳河口等地，造成河水散漫，淹没田地，百姓流离失所，影响农业生产和国家赋税",
+    "response": "当时主要是进行堵口工程，如顺治二年开始的考城流通口大工，由总河杨方兴负责堵筑，至顺治四年合龙",
+    "details": "顺治元年，黄河决口涉及多地。《清史稿·河渠志》仅记载温县决口，而《黄河年表》《南河编年纪要》等还记录了小宋口、单县柳河口等地决口情况。此次决口导致河水泛滥，对周边地区造成严重破坏，后续开展了考城流通口大工进行堵口治理"
+  },
+  {
+    "id": "shunzhi-kaocheng-dike-1645",
+    "type": "水灾",
+    "label": "顺治二年黄河决口",
+    "related": "考城流通口大工",
+    "impact": "决口地点包括考城、王家园、流通集等地，河水冲毁多处堤坝，侵入运道，下游徐、邳、淮、扬等地亦多冲决，致使大量农田被淹，百姓生活受到严重影响",
+    "response": "开展考城流通口大工进行堵口，由总河杨方兴负责，河南巡抚吴景道协助，于顺治四年合龙",
+    "details": "顺治二年，黄河多处决口，其中考城、王家园、流通集等地决口情况较为严重。杨方兴和吴景道负责组织堵口工作，从顺治三年二月二十五日开工，到顺治四年四月初三日筑堤镶戗全部完成，使黄河水归故道"
+  },
+  {
+    "id": "shunzhi-shaanxi-flood-1647",
+    "type": "水灾",
+    "label": "顺治四年陕西水灾",
+    "related": "陕西多地受灾",
+    "impact": "汉水大涨淹没田舍人畜，造成农业损失和人员伤亡",
+    "response": "文档未提及相关应对措施",
+    "details": "顺治四年，汉水大涨淹没田舍人畜"
+  },
+  {
+    "id": "shunzhi-sichuan-flood-1648",
+    "type": "水灾",
+    "label": "顺治五年四川水灾",
+    "related": "四川多地受灾",
+    "impact": "遂宁、成都、盐亭等地发生水灾，斗米银十两，人多饿死",
+    "response": "政府采取减免粮税、救济物资、提供资金支持等措施，如借国帑以广籴粜，调拨国库补给等；民间乡绅参与救灾",
+    "details": "顺治五年，遂宁、成都、盐亭等地发生水灾，粮价飞涨，导致大量饥民"
+  },
+  {
+    "id": "shunzhi-jiangnan-flood-1650",
+    "type": "水灾",
+    "label": "顺治七年江南水灾",
+    "related": "苏州、镇洋、震泽、青浦等地出现地裂生白毛现象",
+    "impact": "造成苏州、镇洋、震泽、青浦等地地裂并生白毛，影响当地生态环境和人们生活",
+    "response": "文档未提及相关应对措施",
+    "details": "顺治七年六月，苏州、镇洋、震泽、青浦地裂，生白毛"
+  },
+  {
+    "id": "kangxi-gansu-flood-1662",
+    "type": "水灾",
+    "label": "康熙元年甘肃水灾",
+    "related": "甘肃部分地区受灾",
+    "impact": "秦州、两当等地受灾，农田被淹，民居损毁",
+    "response": "文档未提及相关应对措施",
+    "details": "康熙元年，甘肃秦州、两当等地遭受水灾"
+  },
+  {
+    "id": "kangxi-jiangnan-flood-1668",
+    "type": "水灾",
+    "label": "康熙七年江南水灾",
+    "related": "昆新两县地震后地生白毛",
+    "impact": "昆新两县地震后出现地生白毛现象，给当地带来一定恐慌",
+    "response": "文档未提及相关应对措施",
+    "details": "康熙七年六月十七日，昆新两县地震有声，后四五日，地生白毛，长三寸许，火之，臭如牛毛"
+  },
+
+  {
+    "id": "kangxi-10-huzhou-flood-1671",
+    "type": "水灾",
+    "label": "康熙十年湖州水灾",
+    "related": "湖州地区大旱、蝗灾并发",
+    "impact": "湖州地区春季大水，五月至七月大旱，蝗虫泛滥，草木枯槁，人员中暑死亡众多，农业生产遭到严重破坏",
+    "response": "文档未提及相关应对措施",
+    "details": "康熙十年，湖州春，大水；五月至七月，大旱，蝗异常，大燠，草木枯槁，人暍死者众"
+  },
+  {
+    "id": "kangxi-10-chongqing-flood-1671",
+    "type": "水灾",
+    "label": "康熙十年重庆水灾",
+    "related": "重庆潼南受灾",
+    "impact": "潼南地区受灾，农田被淹，民居损毁",
+    "response": "文档未提及相关应对措施",
+    "details": "康熙十年，重庆潼南地区遭受水灾"
+  },
+  {
+    "id": "kangxi-11-sichuan-flood-1672",
+    "type": "水灾",
+    "label": "康熙十一年四川水灾",
+    "related": "四川多地受灾",
+    "impact": "乐山平乐、新津、遂宁等多地受灾，农田被淹，民居损毁",
+    "response": "政府采取减免粮税、救济物资、提供资金支持等措施；民间乡绅参与救灾",
+    "details": "康熙十一年，四川乐山平乐、新津、遂宁等多地遭受水灾"
+  },
+  {
+    "id": "kangxi-18-jiangnan-flood-1679",
+    "type": "水灾",
+    "label": "康熙十八年江南水灾",
+    "related": "苏州、湖州等地旱、蝗灾并发",
+    "impact": "苏州、湖州等地夏季干旱，飞蝗蔽天，庄稼受损严重，导致粮食减产，影响人们生计",
+    "response": "文档未提及相关应对措施",
+    "details": "康熙十八年，苏州夏旱，自五月至八月，飞蝗伤稼；湖州旱，飞蝗蔽天，赤地无苗"
+  },
+  {
+    "id": "kangxi-21-huanghe-ssjdu-kou-1682",
+    "type": "水灾",
+    "label": "康熙二十一年黄河宿迁萧家渡决口",
+    "related": "宿迁萧家渡大工",
+    "impact": "决口达九十余丈，黄流旁泄，宿迁、沭阳等处田地悉被淹没，农业生产遭到严重破坏，百姓生活困苦",
+    "response": "由河道总督靳辅负责治理，组织人力物力进行堵口，虽起初预计次年正月合龙，但实际于康熙二十二年四月才合龙，堵口耗银一百六十万两",
+    "details": "康熙二十一年，黄河在宿迁萧家渡决口，决口规模较大。靳辅在治理过程中，面临诸多挑战，与康熙皇帝就堵口时间等问题存在不同意见，最终在康熙二十二年四月完成堵口工作"
+  },
+  {
+    "id": "kangxi-45-hubei-hunan-flood-1706",
+    "type": "水灾",
+    "label": "康熙四十五年水灾",
+    "related": "湖北通城县、蒲圻县、崇阳县、沔阳州、天门县、钟祥县，湖南善化县、澧州直隶州、安福县、安乡县、巴陵县、临湘县、衡阳县、华容县等地疫灾",
+    "impact": "引发多地疫灾，造成农业受损、粮食减产、民众受灾，如沔阳州'水，大饥，大疫'，天门县'大水，民饥，继以疫'",
+    "response": "文中未提及相关应对措施",
+    "details": "康熙四十五年，湖北多地及湖南部分地区遭遇水灾，之后这些地区爆发疫灾"
+  },
+  {
+    "id": "kangxi-46-hubei-hunan-flood-1707",
+    "type": "水灾",
+    "label": "康熙四十六年水灾",
+    "related": "湖北公安县、沔阳州、通城县，湖南善化县、澧州、安福县、安乡县等地疫灾",
+    "impact": "导致相关地区发生疫灾，影响民众生活和社会稳定",
+    "response": "文中未提及相关应对措施",
+    "details": "康熙四十六年，湖北和湖南的部分地区发生水灾，随后出现疫灾"
+  },
+  {
+    "id": "yongzheng-5-hubei-hunan-flood-1727",
+    "type": "水灾",
+    "label": "雍正五年水灾",
+    "related": "湖北江夏县、通城县、荆州州、钟祥县、黄冈县、汉阳县、沔阳州、枝江县及湖南安乡县、湘潭县、湘乡县等地疫灾",
+    "impact": "造成多地受灾，引发疫灾，致使房屋倒塌、庄稼受损、民众流离失所、疫病流行，如枝江县'霪雨三月，二麦泡烂，秋禾莫熟，逃散四方者，日以千数，斗米值钱五百文，冬大疫'",
+    "response": "文中未提及相关应对措施",
+    "details": "雍正五年，湖北多地及湖南部分地区遭受水灾，之后多地爆发疫灾"
+  },
+  {
+    "id": "yongzheng-6-hubei-hunan-flood-1728",
+    "type": "水灾",
+    "label": "雍正六年水灾",
+    "related": "湖北江夏县、武昌县、蒲圻县、崇阳县、荆州州、沔阳州、枝江县，湖南安乡县等地疫灾",
+    "impact": "引发疫灾，影响当地居民生活和健康",
+    "response": "文中未提及相关应对措施",
+    "details": "雍正六年八月，湖北和湖南的部分地区发生水灾，随后这些地区出现疫灾"
+  },
+  {
+    "id": "qianlong-1-sichuan-flood-1736",
+    "type": "水灾",
+    "label": "乾隆元年四川水灾",
+    "related": "四川多地受灾",
+    "impact": "蓬溪、盐亭等地大水，漂没民居无算，农田被淹，民众流离失所",
+    "response": "政府采取减免粮税、救济物资、提供资金支持等措施；民间参与救灾",
+    "details": "乾隆元年，四川蓬溪、盐亭等地发生大水，漂没民居无算"
+  },
+  {
+    "id": "qianlong-1-chongqing-flood-1736",
+    "type": "水灾",
+    "label": "乾隆元年重庆水灾",
+    "related": "重庆涪陵等地受灾",
+    "impact": "涪陵等地大水，漂没民居，农田被淹，民众流离失所",
+    "response": "政府组织救援，如派遣官员勘灾查赈、提供物资支持等；民间参与救援",
+    "details": "乾隆元年，重庆涪陵等地发生大水，漂没民居"
+  },
+  {
+      "id": "late-qing-early-republic-taojiang-flood-peak-1773-1910",
+      "type": "水灾",
+      "label": "清代晚期至民国初期高发期",
+      "related": "沱江流域",
+      "impact": "频繁且严重的水灾",
+      "response": "大规模防洪工程",
+      "details": "1773-1910年间，水灾发生率达60.87%"
+    },
+    {
+      "id": "mid-qing-taojiang-flood-peak-1731-1763",
+      "type": "水灾高发期",
+      "label": "清代中期高发期",
+      "related": "沱江流域",
+      "impact": "范围广泛的水灾",
+      "response": "系统性防洪措施",
+      "details": "1731-1763年间，水灾发生率达54.55%"
+    }
+]
+
