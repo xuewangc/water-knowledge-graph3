@@ -8,7 +8,7 @@ import './App.css';
 // 导入本地JSON数据文件
 import waterProjectsData from './data/水利工程.json';
 import waterTechnologyData from './data/技术.json';
-import waterDisastersData from './data/水灾.json';
+import waterDisastersData from './data/水文事件.json';
 
 const App = () => {
   const [nodes, setNodes] = useState([]);

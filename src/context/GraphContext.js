@@ -4,7 +4,7 @@ import { processGraphData } from '../utils/dataProcessor';
 // 导入本地JSON文件
 import projectsData from '../data/水利工程.json';
 import techsData from '../data/技术.json';
-import floodsData from '../data/水灾.json';
+import floodsData from '../data/水文事件.json';
 
 // 创建上下文
 export const GraphContext = createContext();
