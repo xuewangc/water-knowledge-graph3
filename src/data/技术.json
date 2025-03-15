@@ -160,7 +160,459 @@
     "improvement": "促进了农业发展",
     "details": "通过修建水渠和灌溉槽，有效引水灌溉田地，提高了农作物的产量，保障了粮食安全。"
   },
+
+  {
+    "id": "canal-transportation",
+    "type": "漕运体系",
+    "label": "四河漕运制",
+    "related": "汴河/蔡河/五丈河/金水河",
+    "innovation": "分区专业运输",
+    "period": "建隆年间（960-963）",
+    "improvement": "年运江淮米数十万石",
+    "details": "汴河运江淮、两浙物资；蔡河运陈颍粟帛；五丈河运青齐粮赋；金水河专司京城供水"
+  },
+  {
+    "id": "flood-defense-maintenance",
+    "type": "工程管理",
+    "label": "岁修制度",
+    "related": "黄河堤防",
+    "innovation": "定期维护机制",
+    "period": "乾德五年（967）始",
+    "improvement": "决溢次数减少60%",
+    "details": "每年正月至三月征发丁夫，修缮河堤九千一百三十四丈，设河堤判官专督"
+  },
+  {
+    "id": "riverbank-planting",
+    "type": "生态治河",
+    "label": "五等户种柳法",
+    "related": "黄汴清御河",
+    "innovation": "义务植树分级制",
+    "period": "开宝五年（972）诏行",
+    "improvement": "年增固堤林木百万株",
+    "details": "按户等强制种植：一等户50株，递减至五等户10株，女户孤老豁免"
+  },
+  {
+    "id": "military-escort-navigation",
+    "type": "军事运输",
+    "label": "楼船水军制",
+    "related": "汴河漕运",
+    "innovation": "漕运武装护航",
+    "period": "乾德元年（963）建制",
+    "improvement": "年损粮降至少于2%",
+    "details": "每纲配弩手百人，设巡检司于重要津渡，押纲官兼领军事"
+  },
+  {
+    "id": "coirang-dam",
+    "type": "河道治理",
+    "label": "凌江堰",
+    "related": "横浦水流域",
+    "innovation": "石砌堰体技术",
+    "period": "北宋天禧年间（约1020年）",
+    "improvement": "规模化农田灌溉系统",
+    "details": "保昌知事凌浩伐石筑堰，灌田五千顷，开创南雄州系统水利先河"
+  },
+  {
+    "id": "huizhou-west-lake",
+    "type": "湖泊工程",
+    "label": "惠州西湖",
+    "related": "东江支流",
+    "innovation": "竹木复合堤结构",
+    "period": "北宋治平年间（1064-1067）",
+    "improvement": "多功能水域利用",
+    "details": "太守陈俌筑堤二百丈，构石桥设竹通堤，溉田数百顷兼营苇藕蒲鱼之利"
+  },
+  {
+    "id": "fulong-sea-defense",
+    "type": "海防工程",
+    "label": "福隆堤体系",
+    "related": "东江入海口",
+    "innovation": "石矶消能护岸",
+    "period": "北宋元祐至南宋宝祐（1088-1253）",
+    "improvement": "潮洪双防体系",
+    "details": "李岩始筑万六千丈堤防，设三十二石矶分水，历代增修护田二万二千余顷"
+  },
+  {
+    "id": "hedai-irrigation",
+    "type": "灌溉系统",
+    "label": "何戴水利体系",
+    "related": "雷州东洋田",
+    "innovation": "渠堤闸三位一体",
+    "period": "南宋绍兴至乾道（1131-1170）",
+    "improvement": "咸潮区淡水农业",
+    "details": "何庚导特吕塘西湖水建双渠，戴之邵筑高广海堤配九十九闸，溉万顷斥卤地"
+  },
+  {
+    "id": "pearl-river-delta-reclamation",
+    "type": "三角洲开发",
+    "label": "珠三角堤围群",
+    "related": "西江/北江下游",
+    "innovation": "基围联堡技术",
+    "period": "北宋至道二年始（996年）",
+    "improvement": "冲积平原垦殖",
+    "details": "乡民自筑揽江堤等系列工程，至元形成周长六千三百丈大型堤围，护田三百余顷"
+  },
   
+  {
+    "id": "chang-an-drainage",
+    "type": "沟渠建制",
+    "label": "长安明渠系统",
+    "related": "都城排水",
+    "innovation": "复合断面设计",
+    "period": "隋唐",
+    "improvement": "增强排涝能力",
+    "details": "主渠宽3.3米，深2.34米，支渠断面比1:1.5"
+  },
+  {
+    "id": "water-supervision",
+    "type": "管理规制",
+    "label": "都水监职责",
+    "related": "水系维护",
+    "innovation": "三级巡查制度",
+    "period": "唐代",
+    "improvement": "定期疏浚保障",
+    "details": "设渠长巡检，每年春修清淤，秋冬加固堤防"
+  },
+  {
+    "id": "brick-arch-drainage",
+    "type": "施工规范",
+    "label": "砖砌涵道技术",
+    "related": "地下排水",
+    "innovation": "券拱结构应用",
+    "period": "盛唐",
+    "improvement": "提升结构强度",
+    "details": "使用楔形砖砌筑，拱跨0.85米，壁厚0.3米"
+  },
+  {
+    "id": "flood-emergency-response",
+    "type": "应急制度",
+    "label": "暴雨响应机制",
+    "related": "城市防洪",
+    "innovation": "分段封堵系统",
+    "period": "晚唐",
+    "improvement": "降低内涝风险",
+    "details": "设置活动闸板30处，可快速分区阻断倒灌"
+  },
+  {
+    "id": "seawall-regulation",
+    "type": "海塘管理制度",
+    "label": "石塘修筑规范",
+    "related": "杭州湾防御",
+    "innovation": "条石叠砌技术",
+    "period": "南宋",
+    "improvement": "增强抗潮能力",
+    "details": "淳熙十六年（1189年）采用钱塘江石塘标准，筑石塘602丈5尺"
+  },
+  {
+    "id": "lake-management",
+    "type": "湖泊管理制度",
+    "label": "广德湖调控体系",
+    "related": "灌溉系统",
+    "innovation": "九闸十二棣系统",
+    "period": "北宋",
+    "improvement": "精准水量分配",
+    "details": "熙宁二年（1069年）张峋建九座石闸，设十二棣分水，植榆固堤"
+  },
+  {
+    "id": "canal-extension",
+    "type": "运河管理制度",
+    "label": "浙东运河延伸",
+    "related": "内河航运",
+    "innovation": "河海联运节点",
+    "period": "唐",
+    "improvement": "促进南北货贸",
+    "details": "唐中期延长运河至甬江河口，连接明州城与内陆水系"
+  },
+  {
+    "id": "weir-gate-regime",
+    "type": "堰闸管理制度",
+    "label": "它山堰分水制",
+    "related": "甬江流域",
+    "innovation": "七三水分流法",
+    "period": "唐",
+    "improvement": "旱涝自动调节",
+    "details": "平时七分入河三分入江，涝时反之，设三碣调控水位"
+  },
+  {
+    "id": "reclamation-code",
+    "type": "围垦管理制度",
+    "label": "湖田开发章程",
+    "related": "耕地扩张",
+    "innovation": "废湖定则",
+    "period": "宋元",
+    "improvement": "规范围垦程序",
+    "details": "政和七年（1117年）广德湖围垦需保证灌溉余水入漕河"
+  },
+  {
+    "id": "canal-supervision-system",
+    "type": "漕运体制",
+    "label": "都水监制",
+    "related": "长安漕渠体系",
+    "innovation": "三级管理体系",
+    "period": "隋唐",
+    "improvement": "专业化分工作业",
+    "details": "隋设都水台船局，唐改都水监舟楫署，下辖堰官、斗门长、渠长等职官"
+  },
+  {
+    "id": "transfer-commission-system",
+    "type": "运输组织",
+    "label": "转运使制",
+    "related": "江淮漕运",
+    "innovation": "专业使职体系",
+    "period": "唐开元后",
+    "improvement": "提升年运量至400万石",
+    "details": "裴耀卿首任江淮转运使，建立河渭诸仓体系，实现分段转运"
+  },
+  {
+    "id": "channel-patrol-system",
+    "type": "河道管理",
+    "label": "巡渠亭制度",
+    "related": "永安渠/清明渠",
+    "innovation": "网格化巡查机制",
+    "period": "唐代",
+    "improvement": "保障主干渠畅通",
+    "details": "每五里设巡渠亭，配置专业渠卒巡查维护"
+  },
+  {
+    "id": "cargo-ship-formation",
+    "type": "船舶编组",
+    "label": "漕船编队制",
+    "related": "广通潭码头",
+    "innovation": "船队分级管理",
+    "period": "天宝年间",
+    "improvement": "提升装卸效率30%",
+    "details": "大船载粟二百石为纲首，小船五十石为从船，配置押纲官"
+  },
+  {
+    "id": "double-gate-lock-system",
+    "type": "堰闸技术",
+    "label": "复式船闸制",
+    "related": "兴城堰体系",
+    "innovation": "多级水位调节",
+    "period": "隋开皇年间",
+    "improvement": "实现连续通航",
+    "details": "渭水兴城堰设双闸门，通过蓄泄调控保障漕船通行"
+  },
+  {
+    "id": "specialized-transport-channel",
+    "type": "特种运输",
+    "label": "南山漕河",
+    "related": "西市木材运输",
+    "innovation": "专用建材水道",
+    "period": "天宝初年",
+    "improvement": "年运南山巨木千株",
+    "details": "韩朝宗开金光门入西市水道，设堰桥调控水流"
+  },
+
+  {
+    "id": "gang-transport-system",
+    "type": "运输制度",
+    "label": "纲运制度",
+    "related": ["运河漕运","官物运输"],
+    "innovation": "编队运输法",
+    "period": "北宋",
+    "improvement": "运输效率提升300%",
+    "details": "十船为纲，每纲配备三百押运兵丁，五十专业篙工体系"
+  },
+  {
+    "id": "bianqu-canal-improvement",
+    "type": "运河工程",
+    "label": "汴渠改造",
+    "related": ["漕粮运输","水利管理"],
+    "innovation": "复式船闸系统",
+    "period": "北宋天圣年间",
+    "improvement": "年通航时间延长60天",
+    "details": "采用梯级船闸设计，水位落差控制精度达0.3丈"
+  },
+  {
+    "id": "transport-commission-system",
+    "type": "管理机构",
+    "label": "发运使司",
+    "related": ["漕粮调度","运力调配"],
+    "innovation": "三司联动机制",
+    "period": "元丰改制时期",
+    "improvement": "调度响应速度提升2倍",
+    "details": "设十二路发运使，掌六百万石年漕运量"
+  },
+  {
+    "id": "canal-transport-system",
+    "type": "运输制度",
+    "label": "纲运制度",
+    "related": "运河漕运",
+    "innovation": "编队运输与水利工程整合",
+    "period": "北宋",
+    "improvement": "提升漕运效率与防洪能力",
+    "details": "通过分段设堰（如京口、吕城、奔牛、望亭四堰）控制水位，结合练湖蓄水调节运河水量。漕船编组运输，强化河道疏浚与斗门管理，保障物资输送。"
+  },
+  {
+    "id": "weir-field-system",
+    "type": "农田水利",
+    "label": "圩田系统",
+    "related": "吴淞江治理",
+    "innovation": "塘浦圩田体系",
+    "period": "唐至北宋",
+    "improvement": "实现旱涝调控",
+    "details": "纵浦横塘网格化布局（七里一纵浦，十里一横塘），低田深浦筑堤御洪，高田蓄雨防旱。钱氏吴越时期完善堰闸控制，形成排灌一体化系统。"
+  },
+  {
+    "id": "seawall-defense-system",
+    "type": "海防工程",
+    "label": "海塘体系",
+    "related": "抵御潮灾",
+    "innovation": "竹笼石塘与柴塘技术",
+    "period": "五代至北宋",
+    "improvement": "增强海岸抗冲性",
+    "details": "钱镠以竹笼盛石筑塘，设铁幢测潮；北宋推广柴塘（层柴层土夯筑），局部改用石塘（如杭州六和塔至东青门段），结合石络消能结构。"
+  },
+  {
+    "id": "water-administration-system",
+    "type": "管理机构",
+    "label": "水利职官",
+    "related": "《水部式》法规",
+    "innovation": "分级管理体系",
+    "period": "唐代",
+    "improvement": "明确权责与工程标准",
+    "details": "中央设水部司制定政令，地方刺史/县令督修水利，斗门长专职节水。强制维护责任（如《唐律》规定堤防失修主司杖七十），实施均水制度。"
+  },
+  {
+    "id": "double-gate-lock-innovation",
+    "type": "技术创新",
+    "label": "澳闸系统",
+    "related": "江南运河",
+    "innovation": "复式船闸蓄泄",
+    "period": "北宋",
+    "improvement": "解决运河水位调节",
+    "details": "元符年间创“水澳”辅助闸室，通过闸池循环蓄水保障通航水深，崇宁后设专职澳闸官统筹杭-瓜州段水位管理。"
+  },
+  {
+    "id": "canal-convoy-transport",
+    "type": "运输制度",
+    "label": "纲运制度",
+    "related": "运河漕运",
+    "innovation": "编队运输与水利工程整合",
+    "period": "北宋",
+    "improvement": "提升漕运效率与防洪能力",
+    "details": "通过分段设堰（如京口、吕城、奔牛、望亭四堰）控制水位，结合练湖蓄水调节运河水量。漕船编组运输，强化河道疏浚与斗门管理，保障物资输送。"
+  },
+  {
+    "id": "weir-field-irrigation",
+    "type": "农田水利",
+    "label": "圩田系统",
+    "related": "吴淞江治理",
+    "innovation": "塘浦圩田体系",
+    "period": "唐至北宋",
+    "improvement": "实现旱涝调控",
+    "details": "纵浦横塘网格化布局（七里一纵浦，十里一横塘），低田深浦筑堤御洪，高田蓄雨防旱。钱氏吴越时期完善堰闸控制，形成排灌一体化系统。"
+  },
+  {
+    "id": "seawall-defense-system",
+    "type": "海防工程",
+    "label": "海塘体系",
+    "related": "抵御潮灾",
+    "innovation": "竹笼石塘与柴塘技术",
+    "period": "五代至北宋",
+    "improvement": "增强海岸抗冲性",
+    "details": "钱镠以竹笼盛石筑塘，设铁幢测潮；北宋推广柴塘（层柴层土夯筑），局部改用石塘（如杭州六和塔至东青门段），结合石络消能结构。"
+  },
+  {
+    "id": "water-administration-officials",
+    "type": "管理机构",
+    "label": "水利职官",
+    "related": "《水部式》法规",
+    "innovation": "分级管理体系",
+    "period": "唐代",
+    "improvement": "明确权责与工程标准",
+    "details": "中央设水部司制定政令，地方刺史/县令督修水利，斗门长专职节水。强制维护责任（如《唐律》规定堤防失修主司杖七十），实施均水制度。"
+  },
+  {
+    "id": "double-gate-lock-innovation",
+    "type": "技术创新",
+    "label": "澳闸系统",
+    "related": "江南运河",
+    "innovation": "复式船闸蓄泄",
+    "period": "北宋",
+    "improvement": "解决运河水位调节",
+    "details": "元符年间创“水澳”辅助闸室，通过闸池循环蓄水保障通航水深，崇宁后设专职澳闸官统筹杭-瓜州段水位管理。"
+  },
+  {
+    "id": "lake-irrigation-system",
+    "type": "水利工程",
+    "label": "湖泊水利系统",
+    "related": "它山堰水利系统",
+    "innovation": "分区分溉体系",
+    "period": "齐梁至北宋",
+    "improvement": "扩大灌溉面积与蓄水功能",
+    "details": "初为潟湖围堤而成，唐代储仙舟命名。湖周一万二千八百七十一丈，蓄四明山水，溉鄞西七乡。北宋政和八年废湖为田，辟田七万二千亩收租。"
+  },
+  {
+    "id": "weir-dam-hub-system",
+    "type": "水利工程",
+    "label": "堰坝枢纽系统",
+    "related": "南塘河/仲夏堰",
+    "innovation": "阻咸-蓄淡-泄洪一体结构",
+    "period": "唐至南宋",
+    "improvement": "配套回沙闸与三级碶闸体系",
+    "details": "唐王元暐筑石堰截鄞江，设乌金、积渎、行春三碶分水。宋增设洪水湾石塘、回沙堰，形成七分入江三分入溪的调节机制，溉田三十万亩。"
+  },
+  {
+    "id": "water-rights-management",
+    "type": "水权管理",
+    "label": "水利共同体",
+    "related": "水则碑/祠庙信仰",
+    "innovation": "公田租佣制维护体系",
+    "period": "南宋",
+    "improvement": "制度化岁修保障",
+    "details": "程覃首创捐田四十亩作疏浚基金，魏岘续置田产。官府设水则碑规范启闭标准，通过吴公祠等祭祀强化管理权威。"
+  },
+  {
+    "id": "dual-water-supply-system",
+    "type": "城市水利",
+    "label": "双源供水系统",
+    "related": "日月二湖",
+    "innovation": "山泉-河湖联合调配",
+    "period": "唐宋",
+    "improvement": "城址迁移保障",
+    "details": "广德湖水经九里堰塘入月湖，它山堰水经南塘河入日湖，形成城中双水源体系，支撑三江口城址确立。"
+  },
+  {
+    "id": "canal-self-governance",
+    "type": "水利制度",
+    "label": "渠社组织",
+    "related": "渠人自修渠道",
+    "innovation": "民间自治管理",
+    "period": "唐五代宋初",
+    "improvement": "保障水利设施运行",
+    "details": "渠人社组织居民自费修渠，十船编队运输模式，每纲配篙工五十人"
+  },
+  {
+    "id": "water-deity-cult",
+    "type": "宗教信仰",
+    "label": "渥洼池天马信仰",
+    "related": "水神祭祀",
+    "innovation": "融合政治神话",
+    "period": "西汉至宋初",
+    "improvement": "强化水利权威性",
+    "details": "渥洼池作为神异水源地，通过《敦煌二十咏》建构天马祥瑞叙事"
+  },
+  {
+    "id": "oasis-irrigation-network",
+    "type": "水文工程",
+    "label": "甘泉水系开发",
+    "related": "绿洲灌溉网络",
+    "innovation": "多级渠系布局",
+    "period": "前凉至归义军时期",
+    "improvement": "提升水资源利用率",
+    "details": "形成阳开/北府/都乡等七大干渠体系，支渠达百余条，灌溉覆盖率提升40%"
+  },
+  {
+    "id": "frost-prevention-system",
+    "type": "灾害应对",
+    "label": "霜冻防治体系",
+    "related": "灌溉时序调控",
+    "innovation": "分时错峰灌溉",
+    "period": "北魏至北宋",
+    "improvement": "降低农作物损毁率",
+    "details": "建立春灌前夜集中漫灌制度，使地表温度夜间降幅减少2-3℃"
+  },
   {
     "id": "gang-transport-system",
     "type": "运输制度",
