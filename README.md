@@ -34,6 +34,7 @@
 - **数据存储**：JSON格式存储水利知识数据
 
 ## 项目结构
+```markdown
 water-knowledge-graph3/
 ├── node_modules/
 ├── public/
@@ -81,3 +82,5 @@ water-knowledge-graph3/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
+
